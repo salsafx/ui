@@ -1,0 +1,37 @@
+import { FxMeasureElement } from '../base/FxMeasureElement';
+import { type FxThemeMode } from '../base/Fx/ThemeManager/ThemeManager';
+import './FxRadialScale';
+import './FxRadialSimpleScale';
+import './ValueDisplay';
+import './FxKnob';
+declare const FxPotentiometer_base: (new (...args: any[]) => import("../base/Animatable").AnimatableInterface) & typeof FxMeasureElement;
+export declare class FxPotentiometer extends FxPotentiometer_base {
+    hasValueDisplay: boolean;
+    startAngle: number;
+    arcLength: number;
+    hasScaleLabels: boolean;
+    ticks: number;
+    snapToTicks: boolean;
+    theme?: FxThemeMode;
+    private isDragging;
+    private hasCustomKnob;
+    private hasCustomScale;
+    static styles: import("lit").CSSResult[];
+    private handleMouseDown;
+    private handleTouchStart;
+    private startDrag;
+    private handleMouseMove;
+    private handleTouchMove;
+    private handleMouseUp;
+    private handleTouchEnd;
+    private endDrag;
+    private updateValueFromCoordinates;
+    private dispatchChangeEvent;
+    updated(changedProperties: Map<string | number | symbol, unknown>): void;
+    private updateSlottedDisplay;
+    private updateSlottedKnob;
+    private updateSlottedScale;
+    private describeArc;
+    render(): import("lit").TemplateResult<1>;
+}
+export {};
