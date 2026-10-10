@@ -1,0 +1,33 @@
+import { FxMeasureElement } from '../base/FxMeasureElement';
+import { type FxThemeMode } from '../base/Fx/ThemeManager/ThemeManager';
+import './FxGaugeRegion';
+import './FxGaugeNeedle';
+import './ValueDisplay';
+import './FxRadialScale';
+declare const FxRadialGauge_base: (new (...args: any[]) => import("../base/Animatable").AnimatableInterface) & (new (...args: any[]) => import("../base/GlassOverlay").GlassOverlayInterface) & typeof FxMeasureElement;
+export declare class FxRadialGauge extends FxRadialGauge_base {
+    hasShell: boolean;
+    startAngle: number;
+    arcLength: number;
+    hasScaleLabels: boolean;
+    hasTrack: boolean;
+    hasRegionTooltip: boolean;
+    theme?: FxThemeMode;
+    private regions;
+    private regionTooltip;
+    static styles: import("lit").CSSResult[];
+    connectedCallback(): void;
+    disconnectedCallback(): void;
+    private onRegionsChanged;
+    private refreshRegions;
+    private showRegionTooltip;
+    private moveRegionTooltip;
+    private hideRegionTooltip;
+    private valueToAngle;
+    private describeArc;
+    render(): import("lit").TemplateResult<1>;
+    updated(changedProperties: Map<string | number | symbol, unknown>): void;
+    private syncNeedleShadows;
+    private updateSlottedDisplay;
+}
+export {};

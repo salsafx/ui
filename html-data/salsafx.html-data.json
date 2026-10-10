@@ -1,0 +1,3131 @@
+{
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "digital-clock",
+            "description": "SalsaFX <digital-clock> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "utc",
+                    "description": "utc: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "show-seconds",
+                    "description": "showSeconds: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "size",
+                    "description": "size: string"
+                },
+                {
+                    "name": "typography",
+                    "description": "typography: 'classic' | 'segmented' | 'modern'",
+                    "values": [
+                        {
+                            "name": "classic"
+                        },
+                        {
+                            "name": "segmented"
+                        },
+                        {
+                            "name": "modern"
+                        }
+                    ]
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkblue'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkblue"
+                        }
+                    ]
+                },
+                {
+                    "name": "glow",
+                    "description": "glow: 'none' | 'small' | 'medium' | 'large' | 'x-large'",
+                    "values": [
+                        {
+                            "name": "none"
+                        },
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        },
+                        {
+                            "name": "x-large"
+                        }
+                    ]
+                },
+                {
+                    "name": "content-layout",
+                    "description": "contentLayout: 'row' | 'labeled' | 'column'",
+                    "values": [
+                        {
+                            "name": "row"
+                        },
+                        {
+                            "name": "labeled"
+                        },
+                        {
+                            "name": "column"
+                        }
+                    ]
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                }
+            ]
+        },
+        {
+            "name": "fx-alert",
+            "description": "SalsaFX <fx-alert> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "has-icon",
+                    "description": "hasIcon: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shadow",
+                    "description": "hasShadow: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "text",
+                    "description": "text: string"
+                },
+                {
+                    "name": "size",
+                    "description": "size: 'small' | 'medium' | 'large'",
+                    "values": [
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        }
+                    ]
+                },
+                {
+                    "name": "dismissible",
+                    "description": "dismissible: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "@dismiss",
+                    "description": "Lit event listener. (event: FxAlertDismissEvent) => void",
+                    "eventType": "FxAlertDismissEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-badge",
+            "description": "SalsaFX <fx-badge> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "background",
+                    "description": "background: string"
+                },
+                {
+                    "name": "size",
+                    "description": "size: 'small' | 'medium'",
+                    "values": [
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        }
+                    ]
+                },
+                {
+                    "name": "has-icon",
+                    "description": "hasIcon: boolean",
+                    "valueSet": "v"
+                }
+            ]
+        },
+        {
+            "name": "fx-card",
+            "description": "SalsaFX <fx-card> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "align-x",
+                    "description": "alignX: string"
+                },
+                {
+                    "name": "align-y",
+                    "description": "alignY: string"
+                },
+                {
+                    "name": "title",
+                    "description": "title: string"
+                },
+                {
+                    "name": "badge",
+                    "description": "badge: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "accent-color",
+                    "description": "accentColor: string"
+                },
+                {
+                    "name": "badge-background",
+                    "description": "badgeBackground: string"
+                },
+                {
+                    "name": "background",
+                    "description": "background: string"
+                },
+                {
+                    "name": "border-radius",
+                    "description": "borderRadius: string"
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: string"
+                },
+                {
+                    "name": "gap",
+                    "description": "gap: string"
+                },
+                {
+                    "name": "accent-width",
+                    "description": "accentWidth: string"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fx-display",
+            "description": "SalsaFX <fx-display> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "layout",
+                    "description": "layout: 'horizontal' | 'vertical' | 'grid' | 'h' | 'v'",
+                    "values": [
+                        {
+                            "name": "horizontal"
+                        },
+                        {
+                            "name": "vertical"
+                        },
+                        {
+                            "name": "grid"
+                        },
+                        {
+                            "name": "h"
+                        },
+                        {
+                            "name": "v"
+                        }
+                    ]
+                },
+                {
+                    "name": "gap",
+                    "description": "gap: string"
+                },
+                {
+                    "name": "grid-template",
+                    "description": "gridTemplate: string"
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: string"
+                },
+                {
+                    "name": "border",
+                    "description": "border: string"
+                },
+                {
+                    "name": "border-radius",
+                    "description": "borderRadius: string"
+                },
+                {
+                    "name": "background-color",
+                    "description": "backgroundColor: string"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "size",
+                    "description": "size: string"
+                },
+                {
+                    "name": "content-layout",
+                    "description": "contentLayout: 'row' | 'labeled' | 'column'",
+                    "values": [
+                        {
+                            "name": "row"
+                        },
+                        {
+                            "name": "labeled"
+                        },
+                        {
+                            "name": "column"
+                        }
+                    ]
+                },
+                {
+                    "name": "typography",
+                    "description": "typography: 'classic' | 'segmented' | 'modern'",
+                    "values": [
+                        {
+                            "name": "classic"
+                        },
+                        {
+                            "name": "segmented"
+                        },
+                        {
+                            "name": "modern"
+                        }
+                    ]
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkblue'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkblue"
+                        }
+                    ]
+                },
+                {
+                    "name": "glow",
+                    "description": "glow: 'none' | 'small' | 'medium' | 'large' | 'x-large'",
+                    "values": [
+                        {
+                            "name": "none"
+                        },
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        },
+                        {
+                            "name": "x-large"
+                        }
+                    ]
+                },
+                {
+                    "name": "is-selectable",
+                    "description": "isSelectable: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "get",
+                    "description": "get: unknown[]"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "prefix",
+                    "description": "prefix: string"
+                },
+                {
+                    "name": "value",
+                    "description": "value: string"
+                },
+                {
+                    "name": "suffix",
+                    "description": "suffix: string"
+                },
+                {
+                    "name": "value-template",
+                    "description": "valueTemplate: string"
+                },
+                {
+                    "name": "region-align",
+                    "description": "align: 'left' | 'center' | 'right' | 'space-between' | 'space-around'",
+                    "values": [
+                        {
+                            "name": "left"
+                        },
+                        {
+                            "name": "center"
+                        },
+                        {
+                            "name": "right"
+                        },
+                        {
+                            "name": "space-between"
+                        },
+                        {
+                            "name": "space-around"
+                        }
+                    ]
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "label-color",
+                    "description": "labelColor: string"
+                },
+                {
+                    "name": "prefix-color",
+                    "description": "prefixColor: string"
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                },
+                {
+                    "name": "suffix-color",
+                    "description": "suffixColor: string"
+                },
+                {
+                    "name": "font-size",
+                    "description": "fontSize: string"
+                },
+                {
+                    "name": "label-size",
+                    "description": "labelSize: string"
+                },
+                {
+                    "name": "prefix-size",
+                    "description": "prefixSize: string"
+                },
+                {
+                    "name": "value-size",
+                    "description": "valueSize: string"
+                },
+                {
+                    "name": "suffix-size",
+                    "description": "suffixSize: string"
+                },
+                {
+                    "name": "label-weight",
+                    "description": "labelWeight: string"
+                },
+                {
+                    "name": "value-weight",
+                    "description": "valueWeight: string"
+                },
+                {
+                    "name": "prefix-weight",
+                    "description": "prefixWeight: string"
+                },
+                {
+                    "name": "suffix-weight",
+                    "description": "suffixWeight: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "icon-color",
+                    "description": "iconColor: string"
+                },
+                {
+                    "name": "icon-side",
+                    "description": "iconSide: 'left' | 'right' | 'top' | 'bottom'",
+                    "values": [
+                        {
+                            "name": "left"
+                        },
+                        {
+                            "name": "right"
+                        },
+                        {
+                            "name": "top"
+                        },
+                        {
+                            "name": "bottom"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fx-display-region",
+            "description": "SalsaFX <fx-display-region> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "prefix",
+                    "description": "prefix: string"
+                },
+                {
+                    "name": "value",
+                    "description": "value: string"
+                },
+                {
+                    "name": "suffix",
+                    "description": "suffix: string"
+                },
+                {
+                    "name": "value-template",
+                    "description": "valueTemplate: string"
+                },
+                {
+                    "name": "content-layout",
+                    "description": "contentLayout: 'row' | 'labeled' | 'column'",
+                    "values": [
+                        {
+                            "name": "row"
+                        },
+                        {
+                            "name": "labeled"
+                        },
+                        {
+                            "name": "column"
+                        }
+                    ]
+                },
+                {
+                    "name": "align",
+                    "description": "align: 'left' | 'center' | 'right' | 'space-between' | 'space-around'",
+                    "values": [
+                        {
+                            "name": "left"
+                        },
+                        {
+                            "name": "center"
+                        },
+                        {
+                            "name": "right"
+                        },
+                        {
+                            "name": "space-between"
+                        },
+                        {
+                            "name": "space-around"
+                        }
+                    ]
+                },
+                {
+                    "name": "size",
+                    "description": "size: string"
+                },
+                {
+                    "name": "background-color",
+                    "description": "backgroundColor: string"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "label-color",
+                    "description": "labelColor: string"
+                },
+                {
+                    "name": "prefix-color",
+                    "description": "prefixColor: string"
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                },
+                {
+                    "name": "suffix-color",
+                    "description": "suffixColor: string"
+                },
+                {
+                    "name": "font-size",
+                    "description": "fontSize: string"
+                },
+                {
+                    "name": "label-size",
+                    "description": "labelSize: string"
+                },
+                {
+                    "name": "prefix-size",
+                    "description": "prefixSize: string"
+                },
+                {
+                    "name": "value-size",
+                    "description": "valueSize: string"
+                },
+                {
+                    "name": "suffix-size",
+                    "description": "suffixSize: string"
+                },
+                {
+                    "name": "label-weight",
+                    "description": "labelWeight: string"
+                },
+                {
+                    "name": "value-weight",
+                    "description": "valueWeight: string"
+                },
+                {
+                    "name": "prefix-weight",
+                    "description": "prefixWeight: string"
+                },
+                {
+                    "name": "suffix-weight",
+                    "description": "suffixWeight: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "icon-color",
+                    "description": "iconColor: string"
+                },
+                {
+                    "name": "icon-side",
+                    "description": "iconSide: 'left' | 'right' | 'top' | 'bottom'",
+                    "values": [
+                        {
+                            "name": "left"
+                        },
+                        {
+                            "name": "right"
+                        },
+                        {
+                            "name": "top"
+                        },
+                        {
+                            "name": "bottom"
+                        }
+                    ]
+                },
+                {
+                    "name": "typography",
+                    "description": "typography: 'classic' | 'segmented' | 'modern'",
+                    "values": [
+                        {
+                            "name": "classic"
+                        },
+                        {
+                            "name": "segmented"
+                        },
+                        {
+                            "name": "modern"
+                        }
+                    ]
+                },
+                {
+                    "name": "is-selectable",
+                    "description": "isSelectable: boolean",
+                    "valueSet": "v"
+                }
+            ]
+        },
+        {
+            "name": "fx-fader",
+            "description": "SalsaFX <fx-fader> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-well",
+                    "description": "hasWell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: 'horizontal' | 'vertical'",
+                    "values": [
+                        {
+                            "name": "horizontal"
+                        },
+                        {
+                            "name": "vertical"
+                        }
+                    ]
+                },
+                {
+                    "name": "ticks-side",
+                    "description": "ticksSide: string"
+                },
+                {
+                    "name": "value-origin",
+                    "description": "valueOrigin: 'start' | 'end'",
+                    "values": [
+                        {
+                            "name": "start"
+                        },
+                        {
+                            "name": "end"
+                        }
+                    ]
+                },
+                {
+                    "name": "sub-divisions",
+                    "description": "subDivisions: number"
+                },
+                {
+                    "name": "spacing",
+                    "description": "spacing: number"
+                },
+                {
+                    "name": "ticks",
+                    "description": "ticks: number"
+                },
+                {
+                    "name": "decimals",
+                    "description": "decimals: number"
+                },
+                {
+                    "name": "length",
+                    "description": "length: string"
+                },
+                {
+                    "name": "caption",
+                    "description": "caption: string"
+                },
+                {
+                    "name": "has-region-tooltip",
+                    "description": "hasRegionTooltip: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "snap-to-ticks",
+                    "description": "snapToTicks: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "fit-ticks",
+                    "description": "fitTicks: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "@input",
+                    "description": "Lit event listener. (event: FxFaderInputEvent) => void",
+                    "eventType": "FxFaderInputEvent",
+                    "eventDetail": "{ value: number; displayValue: number }"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxFaderChangeEvent) => void",
+                    "eventType": "FxFaderChangeEvent",
+                    "eventDetail": "{ value: number; displayValue: number }"
+                }
+            ]
+        },
+        {
+            "name": "fx-gauge-needle",
+            "description": "SalsaFX <fx-gauge-needle> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "start-angle",
+                    "description": "startAngle: number"
+                },
+                {
+                    "name": "arc-length",
+                    "description": "arcLength: number"
+                },
+                {
+                    "name": "has-shadow",
+                    "description": "hasShadow: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "thickness",
+                    "description": "thickness: number"
+                }
+            ]
+        },
+        {
+            "name": "fx-gauge-needle-triangle",
+            "description": "SalsaFX <fx-gauge-needle-triangle> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "start-angle",
+                    "description": "startAngle: number"
+                },
+                {
+                    "name": "arc-length",
+                    "description": "arcLength: number"
+                },
+                {
+                    "name": "has-shadow",
+                    "description": "hasShadow: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "thickness",
+                    "description": "thickness: number"
+                }
+            ]
+        },
+        {
+            "name": "fx-gauge-region",
+            "description": "SalsaFX <fx-gauge-region> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "from",
+                    "description": "from: number"
+                },
+                {
+                    "name": "to",
+                    "description": "to: number"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "@regionupdate",
+                    "description": "Lit event listener. (event: FxGaugeRegionRegionupdateEvent) => void",
+                    "eventType": "FxGaugeRegionRegionupdateEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-group-box",
+            "description": "SalsaFX <fx-group-box> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "align-x",
+                    "description": "alignX: string"
+                },
+                {
+                    "name": "align-y",
+                    "description": "alignY: string"
+                },
+                {
+                    "name": "title",
+                    "description": "title: string"
+                },
+                {
+                    "name": "title-color",
+                    "description": "titleColor: string"
+                },
+                {
+                    "name": "background",
+                    "description": "background: string"
+                },
+                {
+                    "name": "border",
+                    "description": "border: string"
+                },
+                {
+                    "name": "border-radius",
+                    "description": "borderRadius: string"
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: string"
+                },
+                {
+                    "name": "gap",
+                    "description": "gap: string"
+                },
+                {
+                    "name": "flex-direction",
+                    "description": "flexDirection: 'row' | 'column'",
+                    "values": [
+                        {
+                            "name": "row"
+                        },
+                        {
+                            "name": "column"
+                        }
+                    ]
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fx-icon",
+            "description": "SalsaFX <fx-icon> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "size",
+                    "description": "size: string"
+                }
+            ]
+        },
+        {
+            "name": "fx-knob",
+            "description": "SalsaFX <fx-knob> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "angle",
+                    "description": "angle: number"
+                }
+            ]
+        },
+        {
+            "name": "fx-led-indicator",
+            "description": "SalsaFX <fx-led-indicator> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "label-position",
+                    "description": "labelPosition: 'top' | 'bottom' | 'none'",
+                    "values": [
+                        {
+                            "name": "top"
+                        },
+                        {
+                            "name": "bottom"
+                        },
+                        {
+                            "name": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "shape",
+                    "description": "shape: 'round' | 'rect' | 'square'",
+                    "values": [
+                        {
+                            "name": "round"
+                        },
+                        {
+                            "name": "rect"
+                        },
+                        {
+                            "name": "square"
+                        }
+                    ]
+                },
+                {
+                    "name": "size",
+                    "description": "size: 'small' | 'medium' | 'large' | 'x-large'",
+                    "values": [
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        },
+                        {
+                            "name": "x-large"
+                        }
+                    ]
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "name",
+                    "description": "name: string"
+                },
+                {
+                    "name": "is-active",
+                    "description": "isActive: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-blinking",
+                    "description": "isBlinking: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-interactive",
+                    "description": "isInteractive: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxLedIndicatorChangeEvent) => void",
+                    "eventType": "FxLedIndicatorChangeEvent",
+                    "eventDetail": "{ isActive: string; name: string }"
+                }
+            ]
+        },
+        {
+            "name": "fx-linear-bar",
+            "description": "SalsaFX <fx-linear-bar> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-well",
+                    "description": "hasWell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: 'horizontal' | 'vertical'",
+                    "values": [
+                        {
+                            "name": "horizontal"
+                        },
+                        {
+                            "name": "vertical"
+                        }
+                    ]
+                },
+                {
+                    "name": "ticks-side",
+                    "description": "ticksSide: string"
+                },
+                {
+                    "name": "value-origin",
+                    "description": "valueOrigin: 'start' | 'end'",
+                    "values": [
+                        {
+                            "name": "start"
+                        },
+                        {
+                            "name": "end"
+                        }
+                    ]
+                },
+                {
+                    "name": "sub-divisions",
+                    "description": "subDivisions: number"
+                },
+                {
+                    "name": "spacing",
+                    "description": "spacing: number"
+                },
+                {
+                    "name": "ticks",
+                    "description": "ticks: number"
+                },
+                {
+                    "name": "decimals",
+                    "description": "decimals: number"
+                },
+                {
+                    "name": "length",
+                    "description": "length: string"
+                },
+                {
+                    "name": "caption",
+                    "description": "caption: string"
+                },
+                {
+                    "name": "has-region-tooltip",
+                    "description": "hasRegionTooltip: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-segmented",
+                    "description": "isSegmented: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-rounded",
+                    "description": "isRounded: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "track-thickness",
+                    "description": "trackThickness: string"
+                }
+            ]
+        },
+        {
+            "name": "fx-linear-gauge",
+            "description": "SalsaFX <fx-linear-gauge> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "ticks-side",
+                    "description": "ticksSide: string"
+                },
+                {
+                    "name": "count",
+                    "description": "count: number"
+                },
+                {
+                    "name": "sub-divisions",
+                    "description": "subDivisions: number"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: string"
+                },
+                {
+                    "name": "track-thickness",
+                    "description": "trackThickness: string"
+                },
+                {
+                    "name": "value-origin",
+                    "description": "valueOrigin: 'start' | 'end'",
+                    "values": [
+                        {
+                            "name": "start"
+                        },
+                        {
+                            "name": "end"
+                        }
+                    ]
+                },
+                {
+                    "name": "caption",
+                    "description": "caption: string"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                },
+                {
+                    "name": "spacing",
+                    "description": "spacing: number"
+                },
+                {
+                    "name": "has-scale-connecting-line",
+                    "description": "hasScaleConnectingLine: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-rounded-track",
+                    "description": "isRoundedTrack: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-rounded-shell",
+                    "description": "isRoundedShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-region-tooltip",
+                    "description": "hasRegionTooltip: boolean",
+                    "valueSet": "v"
+                }
+            ]
+        },
+        {
+            "name": "fx-linear-scale",
+            "description": "SalsaFX <fx-linear-scale> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "count",
+                    "description": "count: number"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "replacements",
+                    "description": "replacements: Record<string, unknown>"
+                },
+                {
+                    "name": "value-origin",
+                    "description": "valueOrigin: 'start' | 'end'",
+                    "values": [
+                        {
+                            "name": "start"
+                        },
+                        {
+                            "name": "end"
+                        }
+                    ]
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "sub-divisions",
+                    "description": "subDivisions: number"
+                },
+                {
+                    "name": "side",
+                    "description": "side: string"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: string"
+                },
+                {
+                    "name": "start-offset",
+                    "description": "startOffset: number"
+                },
+                {
+                    "name": "end-offset",
+                    "description": "endOffset: number"
+                },
+                {
+                    "name": "view-box-width",
+                    "description": "viewBoxWidth: number"
+                },
+                {
+                    "name": "view-box-height",
+                    "description": "viewBoxHeight: number"
+                },
+                {
+                    "name": "preserve-aspect-ratio",
+                    "description": "preserveAspectRatio: string"
+                },
+                {
+                    "name": "has-scale-connecting-line",
+                    "description": "hasScaleConnectingLine: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "track-thickness",
+                    "description": "trackThickness: string"
+                },
+                {
+                    "name": "caption",
+                    "description": "caption: string"
+                },
+                {
+                    "name": "spacing",
+                    "description": "spacing: number"
+                },
+                {
+                    "name": "caption-offset",
+                    "description": "captionOffset: number"
+                },
+                {
+                    "name": "track-center",
+                    "description": "trackCenter: number"
+                }
+            ]
+        },
+        {
+            "name": "fx-metalic-knob",
+            "description": "SalsaFX <fx-metalic-knob> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "angle",
+                    "description": "angle: number"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "progress",
+                    "description": "progress: number"
+                },
+                {
+                    "name": "is-dragging",
+                    "description": "isDragging: boolean",
+                    "valueSet": "v"
+                }
+            ]
+        },
+        {
+            "name": "fx-pill",
+            "description": "SalsaFX <fx-pill> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "background",
+                    "description": "background: string"
+                },
+                {
+                    "name": "border-color",
+                    "description": "borderColor: string"
+                },
+                {
+                    "name": "size",
+                    "description": "size: 'small' | 'medium' | 'large'",
+                    "values": [
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        }
+                    ]
+                },
+                {
+                    "name": "shape",
+                    "description": "shape: 'pill' | 'roundedRect' | 'rect'",
+                    "values": [
+                        {
+                            "name": "pill"
+                        },
+                        {
+                            "name": "roundedRect"
+                        },
+                        {
+                            "name": "rect"
+                        }
+                    ]
+                },
+                {
+                    "name": "is-blinking",
+                    "description": "isBlinking: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-icon",
+                    "description": "hasIcon: boolean",
+                    "valueSet": "v"
+                }
+            ]
+        },
+        {
+            "name": "fx-potentiometer",
+            "description": "SalsaFX <fx-potentiometer> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "start-angle",
+                    "description": "startAngle: number"
+                },
+                {
+                    "name": "arc-length",
+                    "description": "arcLength: number"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "ticks",
+                    "description": "ticks: number"
+                },
+                {
+                    "name": "snap-to-ticks",
+                    "description": "snapToTicks: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                },
+                {
+                    "name": "@input",
+                    "description": "Lit event listener. (event: FxPotentiometerInputEvent) => void",
+                    "eventType": "FxPotentiometerInputEvent",
+                    "eventDetail": "{ value: number }"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxPotentiometerChangeEvent) => void",
+                    "eventType": "FxPotentiometerChangeEvent",
+                    "eventDetail": "{ value: number }"
+                }
+            ]
+        },
+        {
+            "name": "fx-push-button",
+            "description": "SalsaFX <fx-push-button> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "label-position",
+                    "description": "labelPosition: 'inside' | 'plate' | 'none'",
+                    "values": [
+                        {
+                            "name": "inside"
+                        },
+                        {
+                            "name": "plate"
+                        },
+                        {
+                            "name": "none"
+                        }
+                    ]
+                },
+                {
+                    "name": "type",
+                    "description": "type: 'momentary' | 'latching'",
+                    "values": [
+                        {
+                            "name": "momentary"
+                        },
+                        {
+                            "name": "latching"
+                        }
+                    ]
+                },
+                {
+                    "name": "is-active",
+                    "description": "isActive: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "background-color",
+                    "description": "backgroundColor: string"
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "icon-rendering-mode",
+                    "description": "iconRenderingMode: 'shaded' | 'foregroundColor'",
+                    "values": [
+                        {
+                            "name": "shaded"
+                        },
+                        {
+                            "name": "foregroundColor"
+                        }
+                    ]
+                },
+                {
+                    "name": "text-rendering-mode",
+                    "description": "textRenderingMode: 'shaded' | 'foregroundColor'",
+                    "values": [
+                        {
+                            "name": "shaded"
+                        },
+                        {
+                            "name": "foregroundColor"
+                        }
+                    ]
+                },
+                {
+                    "name": "shape",
+                    "description": "shape: 'round' | 'pill' | 'rect' | 'roundedRect'",
+                    "values": [
+                        {
+                            "name": "round"
+                        },
+                        {
+                            "name": "pill"
+                        },
+                        {
+                            "name": "rect"
+                        },
+                        {
+                            "name": "roundedRect"
+                        }
+                    ]
+                },
+                {
+                    "name": "@release",
+                    "description": "Lit event listener. (event: FxPushButtonReleaseEvent) => void",
+                    "eventType": "FxPushButtonReleaseEvent",
+                    "eventDetail": "{ active: string; isActive: string }"
+                },
+                {
+                    "name": "@press",
+                    "description": "Lit event listener. (event: FxPushButtonPressEvent) => void",
+                    "eventType": "FxPushButtonPressEvent",
+                    "eventDetail": "{ active: string; isActive: string }"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxPushButtonChangeEvent) => void",
+                    "eventType": "FxPushButtonChangeEvent",
+                    "eventDetail": "{ active: string; isActive: string }"
+                }
+            ]
+        },
+        {
+            "name": "fx-radial-gauge",
+            "description": "SalsaFX <fx-radial-gauge> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "start-angle",
+                    "description": "startAngle: number"
+                },
+                {
+                    "name": "arc-length",
+                    "description": "arcLength: number"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-track",
+                    "description": "hasTrack: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-region-tooltip",
+                    "description": "hasRegionTooltip: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fx-radial-scale",
+            "description": "SalsaFX <fx-radial-scale> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "count",
+                    "description": "count: number"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "replacements",
+                    "description": "replacements: Record<string, unknown>"
+                },
+                {
+                    "name": "value-origin",
+                    "description": "valueOrigin: 'start' | 'end'",
+                    "values": [
+                        {
+                            "name": "start"
+                        },
+                        {
+                            "name": "end"
+                        }
+                    ]
+                },
+                {
+                    "name": "start-angle",
+                    "description": "startAngle: number"
+                },
+                {
+                    "name": "arc-length",
+                    "description": "arcLength: number"
+                },
+                {
+                    "name": "sub-divisions",
+                    "description": "subDivisions: number"
+                },
+                {
+                    "name": "outer-radius",
+                    "description": "outerRadius: number"
+                },
+                {
+                    "name": "major-inner-radius",
+                    "description": "majorInnerRadius: number"
+                },
+                {
+                    "name": "minor-inner-radius",
+                    "description": "minorInnerRadius: number"
+                },
+                {
+                    "name": "text-radius",
+                    "description": "textRadius: number"
+                },
+                {
+                    "name": "label-font-size",
+                    "description": "labelFontSize: number"
+                }
+            ]
+        },
+        {
+            "name": "fx-radial-simple-scale",
+            "description": "SalsaFX <fx-radial-simple-scale> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "count",
+                    "description": "count: number"
+                },
+                {
+                    "name": "replacements",
+                    "description": "replacements: Record<string, unknown>"
+                },
+                {
+                    "name": "value-origin",
+                    "description": "valueOrigin: 'start' | 'end'",
+                    "values": [
+                        {
+                            "name": "start"
+                        },
+                        {
+                            "name": "end"
+                        }
+                    ]
+                },
+                {
+                    "name": "start-angle",
+                    "description": "startAngle: number"
+                },
+                {
+                    "name": "arc-length",
+                    "description": "arcLength: number"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "outer-radius",
+                    "description": "outerRadius: number"
+                },
+                {
+                    "name": "inner-radius",
+                    "description": "innerRadius: number"
+                },
+                {
+                    "name": "text-radius",
+                    "description": "textRadius: number"
+                },
+                {
+                    "name": "label-font-size",
+                    "description": "labelFontSize: number"
+                }
+            ]
+        },
+        {
+            "name": "fx-radial-switch",
+            "description": "SalsaFX <fx-radial-switch> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "states",
+                    "description": "states: unknown[]"
+                },
+                {
+                    "name": "active-id",
+                    "description": "activeId: string"
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                },
+                {
+                    "name": "background-color",
+                    "description": "backgroundColor: string"
+                },
+                {
+                    "name": "size",
+                    "description": "size: string"
+                },
+                {
+                    "name": "track-width",
+                    "description": "trackWidth: number"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxRadialSwitchChangeEvent) => void",
+                    "eventType": "FxRadialSwitchChangeEvent",
+                    "eventDetail": "{ state: string }"
+                }
+            ]
+        },
+        {
+            "name": "fx-rotary-selector",
+            "description": "SalsaFX <fx-rotary-selector> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "sectors",
+                    "description": "sectors: unknown[]"
+                },
+                {
+                    "name": "selected-sector",
+                    "description": "selectedSector: string"
+                },
+                {
+                    "name": "selected-range",
+                    "description": "selectedRange: string"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxRotarySelectorChangeEvent) => void",
+                    "eventType": "FxRotarySelectorChangeEvent",
+                    "eventDetail": "{ sectorId: string; range: string }"
+                }
+            ]
+        },
+        {
+            "name": "fx-rotary-selector-sector",
+            "description": "SalsaFX <fx-rotary-selector-sector> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: string"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "text-color",
+                    "description": "textColor: string"
+                },
+                {
+                    "name": "ranges",
+                    "description": "ranges: unknown[]"
+                },
+                {
+                    "name": "start-deg",
+                    "description": "startDeg: number"
+                },
+                {
+                    "name": "end-deg",
+                    "description": "endDeg: number"
+                },
+                {
+                    "name": "@sectorupdate",
+                    "description": "Lit event listener. (event: FxRotarySelectorSectorSectorupdateEvent) => void",
+                    "eventType": "FxRotarySelectorSectorSectorupdateEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-semaphore",
+            "description": "SalsaFX <fx-semaphore> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: string"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "size",
+                    "description": "size: 'small' | 'medium' | 'large' | 'x-large'",
+                    "values": [
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        },
+                        {
+                            "name": "x-large"
+                        }
+                    ]
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: 'horizontal' | 'vertical'",
+                    "values": [
+                        {
+                            "name": "horizontal"
+                        },
+                        {
+                            "name": "vertical"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fx-semaphore-state",
+            "description": "SalsaFX <fx-semaphore-state> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: string"
+                },
+                {
+                    "name": "color",
+                    "description": "color: string"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "is-blinking",
+                    "description": "isBlinking: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "@stateupdate",
+                    "description": "Lit event listener. (event: FxSemaphoreStateStateupdateEvent) => void",
+                    "eventType": "FxSemaphoreStateStateupdateEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-separator",
+            "description": "SalsaFX <fx-separator> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: 'horizontal' | 'vertical'",
+                    "values": [
+                        {
+                            "name": "horizontal"
+                        },
+                        {
+                            "name": "vertical"
+                        }
+                    ]
+                },
+                {
+                    "name": "thickness",
+                    "description": "thickness: 'thin' | 'thick'",
+                    "values": [
+                        {
+                            "name": "thin"
+                        },
+                        {
+                            "name": "thick"
+                        }
+                    ]
+                },
+                {
+                    "name": "mode",
+                    "description": "mode: 'normal' | 'smooth'",
+                    "values": [
+                        {
+                            "name": "normal"
+                        },
+                        {
+                            "name": "smooth"
+                        }
+                    ]
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: 'none' | 'small' | 'medium' | 'large' | 'x-large'",
+                    "values": [
+                        {
+                            "name": "none"
+                        },
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "medium"
+                        },
+                        {
+                            "name": "large"
+                        },
+                        {
+                            "name": "x-large"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fx-stack-panel",
+            "description": "SalsaFX <fx-stack-panel> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "align-x",
+                    "description": "alignX: string"
+                },
+                {
+                    "name": "align-y",
+                    "description": "alignY: string"
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: string"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: 'horizontal' | 'vertical'",
+                    "values": [
+                        {
+                            "name": "horizontal"
+                        },
+                        {
+                            "name": "vertical"
+                        }
+                    ]
+                },
+                {
+                    "name": "spacing",
+                    "description": "spacing: string"
+                },
+                {
+                    "name": "width",
+                    "description": "width: string"
+                },
+                {
+                    "name": "height",
+                    "description": "height: string"
+                }
+            ]
+        },
+        {
+            "name": "fx-switch",
+            "description": "SalsaFX <fx-switch> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "states",
+                    "description": "states: unknown[]"
+                },
+                {
+                    "name": "active-id",
+                    "description": "activeId: string"
+                },
+                {
+                    "name": "orientation",
+                    "description": "orientation: string"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                },
+                {
+                    "name": "background-color",
+                    "description": "backgroundColor: string"
+                },
+                {
+                    "name": "state-width",
+                    "description": "stateWidth: string"
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxSwitchChangeEvent) => void",
+                    "eventType": "FxSwitchChangeEvent",
+                    "eventDetail": "{ state: string }"
+                }
+            ]
+        },
+        {
+            "name": "fx-switch-state",
+            "description": "SalsaFX <fx-switch-state> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: string"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "foreground-color",
+                    "description": "foregroundColor: string"
+                },
+                {
+                    "name": "background-color",
+                    "description": "backgroundColor: string"
+                },
+                {
+                    "name": "@stateupdate",
+                    "description": "Lit event listener. (event: FxSwitchStateStateupdateEvent) => void",
+                    "eventType": "FxSwitchStateStateupdateEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-tab",
+            "description": "SalsaFX <fx-tab> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: string"
+                },
+                {
+                    "name": "header",
+                    "description": "header: string"
+                },
+                {
+                    "name": "selection-color",
+                    "description": "selectionColor: string"
+                },
+                {
+                    "name": "variant",
+                    "description": "variant: 'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'",
+                    "values": [
+                        {
+                            "name": "primary"
+                        },
+                        {
+                            "name": "secondary"
+                        },
+                        {
+                            "name": "success"
+                        },
+                        {
+                            "name": "danger"
+                        },
+                        {
+                            "name": "warning"
+                        },
+                        {
+                            "name": "info"
+                        },
+                        {
+                            "name": "light"
+                        },
+                        {
+                            "name": "dark"
+                        }
+                    ]
+                },
+                {
+                    "name": "badge",
+                    "description": "badge: string"
+                },
+                {
+                    "name": "icon",
+                    "description": "icon: string"
+                },
+                {
+                    "name": "selected",
+                    "description": "selected: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "align-x",
+                    "description": "alignX: string"
+                },
+                {
+                    "name": "align-y",
+                    "description": "alignY: string"
+                },
+                {
+                    "name": "@tabupdate",
+                    "description": "Lit event listener. (event: FxTabTabupdateEvent) => void",
+                    "eventType": "FxTabTabupdateEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-tabs",
+            "description": "SalsaFX <fx-tabs> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "align-x",
+                    "description": "alignX: string"
+                },
+                {
+                    "name": "align-y",
+                    "description": "alignY: string"
+                },
+                {
+                    "name": "padding",
+                    "description": "padding: string"
+                },
+                {
+                    "name": "is-animated",
+                    "description": "isAnimated: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "selected-index",
+                    "description": "selectedIndex: number"
+                },
+                {
+                    "name": "selection-color",
+                    "description": "selectionColor: string"
+                },
+                {
+                    "name": "theme",
+                    "description": "theme: 'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'",
+                    "values": [
+                        {
+                            "name": "silver"
+                        },
+                        {
+                            "name": "darkgreen"
+                        },
+                        {
+                            "name": "iron"
+                        },
+                        {
+                            "name": "dark"
+                        },
+                        {
+                            "name": "darkblue"
+                        },
+                        {
+                            "name": "darkergreen"
+                        },
+                        {
+                            "name": "snow"
+                        }
+                    ]
+                },
+                {
+                    "name": "@change",
+                    "description": "Lit event listener. (event: FxTabsChangeEvent) => void",
+                    "eventType": "FxTabsChangeEvent",
+                    "eventDetail": "Record<string, unknown>"
+                }
+            ]
+        },
+        {
+            "name": "fx-toaster",
+            "description": "SalsaFX <fx-toaster> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "placement",
+                    "description": "placement: 'top-start' | 'top-center' | 'top-end' | 'bottom-start' | 'bottom-center' | 'bottom-end'",
+                    "values": [
+                        {
+                            "name": "top-start"
+                        },
+                        {
+                            "name": "top-center"
+                        },
+                        {
+                            "name": "top-end"
+                        },
+                        {
+                            "name": "bottom-start"
+                        },
+                        {
+                            "name": "bottom-center"
+                        },
+                        {
+                            "name": "bottom-end"
+                        }
+                    ]
+                },
+                {
+                    "name": "duration",
+                    "description": "duration: number"
+                },
+                {
+                    "name": "margin",
+                    "description": "margin: string"
+                }
+            ]
+        },
+        {
+            "name": "fx-value-display",
+            "description": "SalsaFX <fx-value-display> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "value",
+                    "description": "value: number"
+                },
+                {
+                    "name": "min",
+                    "description": "min: number"
+                },
+                {
+                    "name": "max",
+                    "description": "max: number"
+                },
+                {
+                    "name": "label",
+                    "description": "label: string"
+                },
+                {
+                    "name": "unit",
+                    "description": "unit: string"
+                },
+                {
+                    "name": "has-value-display",
+                    "description": "hasValueDisplay: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "offset-x",
+                    "description": "offsetX: string"
+                },
+                {
+                    "name": "offset-y",
+                    "description": "offsetY: string"
+                },
+                {
+                    "name": "align",
+                    "description": "align: 'left' | 'center' | 'right'",
+                    "values": [
+                        {
+                            "name": "left"
+                        },
+                        {
+                            "name": "center"
+                        },
+                        {
+                            "name": "right"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "live-clock",
+            "description": "SalsaFX <live-clock> component.",
+            "attributes": [
+                {
+                    "name": "disabled",
+                    "description": "disabled: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "utc",
+                    "description": "utc: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "size",
+                    "description": "size: number"
+                },
+                {
+                    "name": "has-scale-labels",
+                    "description": "hasScaleLabels: boolean",
+                    "valueSet": "v"
+                },
+                {
+                    "name": "has-shell",
+                    "description": "hasShell: boolean",
+                    "valueSet": "v"
+                }
+            ]
+        }
+    ],
+    "valueSets": [
+        {
+            "name": "v",
+            "values": []
+        }
+    ]
+}

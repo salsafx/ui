@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "esnext",
+    "lib": [
+      "ES2023",
+      "DOM"
+    ],
+    "types": [
+      "vite/client"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/react-jsx.d.ts",
+    "src/react-jsx.pro.d.ts",
+    "src/solid-jsx.d.ts",
+    "src/solid-jsx.pro.d.ts",
+    "src/react-elements.d.ts",
+    "src/react-elements.pro.d.ts",
+    "src/solid-elements.d.ts",
+    "src/solid-elements.pro.d.ts"
+  ]
+}

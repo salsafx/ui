@@ -1,0 +1,6920 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "SalsaFX Custom Elements Manifest",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-alert.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxAlert",
+          "tagName": "fx-alert",
+          "description": "SalsaFX <fx-alert> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "variant property.",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-icon",
+              "description": "hasIcon property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-shadow",
+              "description": "hasShadow property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "text",
+              "description": "text property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "'small' | 'medium' | 'large'"
+              }
+            },
+            {
+              "name": "dismissible",
+              "description": "dismissible property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "dismiss",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "variant",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              },
+              "attribute": "variant"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "hasIcon",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-icon"
+            },
+            {
+              "kind": "field",
+              "name": "hasShadow",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shadow"
+            },
+            {
+              "kind": "field",
+              "name": "text",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "text"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "'small' | 'medium' | 'large'"
+              },
+              "attribute": "size"
+            },
+            {
+              "kind": "field",
+              "name": "dismissible",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "dismissible"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-card.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxCard",
+          "tagName": "fx-card",
+          "description": "SalsaFX <fx-card> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "align-x",
+              "description": "alignX property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "align-y",
+              "description": "alignY property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "title",
+              "description": "title property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "badge",
+              "description": "badge property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "accent-color",
+              "description": "accentColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "badge-background",
+              "description": "badgeBackground property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background",
+              "description": "background property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "border-radius",
+              "description": "borderRadius property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "gap",
+              "description": "gap property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "accent-width",
+              "description": "accentWidth property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "alignX",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-x"
+            },
+            {
+              "kind": "field",
+              "name": "alignY",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-y"
+            },
+            {
+              "kind": "field",
+              "name": "title",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "title"
+            },
+            {
+              "kind": "field",
+              "name": "badge",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "badge"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "accentColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "accent-color"
+            },
+            {
+              "kind": "field",
+              "name": "badgeBackground",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "badge-background"
+            },
+            {
+              "kind": "field",
+              "name": "background",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background"
+            },
+            {
+              "kind": "field",
+              "name": "borderRadius",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "border-radius"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "padding"
+            },
+            {
+              "kind": "field",
+              "name": "gap",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "gap"
+            },
+            {
+              "kind": "field",
+              "name": "accentWidth",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "accent-width"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-display.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxDisplay",
+          "tagName": "fx-display",
+          "description": "SalsaFX <fx-display> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "layout",
+              "description": "layout property.",
+              "type": {
+                "text": "'horizontal' | 'vertical' | 'grid' | 'h' | 'v'"
+              }
+            },
+            {
+              "name": "gap",
+              "description": "gap property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "grid-template",
+              "description": "gridTemplate property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "border",
+              "description": "border property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "border-radius",
+              "description": "borderRadius property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background-color",
+              "description": "backgroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-shell",
+              "description": "hasShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "content-layout",
+              "description": "contentLayout property.",
+              "type": {
+                "text": "'row' | 'labeled' | 'column'"
+              }
+            },
+            {
+              "name": "typography",
+              "description": "typography property.",
+              "type": {
+                "text": "'classic' | 'segmented' | 'modern'"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkblue'"
+              }
+            },
+            {
+              "name": "glow",
+              "description": "glow property.",
+              "type": {
+                "text": "'none' | 'small' | 'medium' | 'large' | 'x-large'"
+              }
+            },
+            {
+              "name": "is-selectable",
+              "description": "isSelectable property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "get",
+              "description": "get property.",
+              "type": {
+                "text": "unknown[]"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix",
+              "description": "prefix property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix",
+              "description": "suffix property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-template",
+              "description": "valueTemplate property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "region-align",
+              "description": "align property.",
+              "type": {
+                "text": "'left' | 'center' | 'right' | 'space-between' | 'space-around'"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-color",
+              "description": "labelColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix-color",
+              "description": "prefixColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "foreground-color",
+              "description": "foregroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix-color",
+              "description": "suffixColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "font-size",
+              "description": "fontSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-size",
+              "description": "labelSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix-size",
+              "description": "prefixSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-size",
+              "description": "valueSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix-size",
+              "description": "suffixSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-weight",
+              "description": "labelWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-weight",
+              "description": "valueWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix-weight",
+              "description": "prefixWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix-weight",
+              "description": "suffixWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon-color",
+              "description": "iconColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon-side",
+              "description": "iconSide property.",
+              "type": {
+                "text": "'left' | 'right' | 'top' | 'bottom'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "layout",
+              "type": {
+                "text": "'horizontal' | 'vertical' | 'grid' | 'h' | 'v'"
+              },
+              "attribute": "layout"
+            },
+            {
+              "kind": "field",
+              "name": "gap",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "gap"
+            },
+            {
+              "kind": "field",
+              "name": "gridTemplate",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "grid-template"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "padding"
+            },
+            {
+              "kind": "field",
+              "name": "border",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "border"
+            },
+            {
+              "kind": "field",
+              "name": "borderRadius",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "border-radius"
+            },
+            {
+              "kind": "field",
+              "name": "backgroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background-color"
+            },
+            {
+              "kind": "field",
+              "name": "hasShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shell"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "size"
+            },
+            {
+              "kind": "field",
+              "name": "contentLayout",
+              "type": {
+                "text": "'row' | 'labeled' | 'column'"
+              },
+              "attribute": "content-layout"
+            },
+            {
+              "kind": "field",
+              "name": "typography",
+              "type": {
+                "text": "'classic' | 'segmented' | 'modern'"
+              },
+              "attribute": "typography"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkblue'"
+              },
+              "attribute": "theme"
+            },
+            {
+              "kind": "field",
+              "name": "glow",
+              "type": {
+                "text": "'none' | 'small' | 'medium' | 'large' | 'x-large'"
+              },
+              "attribute": "glow"
+            },
+            {
+              "kind": "field",
+              "name": "isSelectable",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-selectable"
+            },
+            {
+              "kind": "field",
+              "name": "get",
+              "type": {
+                "text": "unknown[]"
+              },
+              "attribute": "get"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "prefix",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "suffix",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix"
+            },
+            {
+              "kind": "field",
+              "name": "valueTemplate",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value-template"
+            },
+            {
+              "kind": "field",
+              "name": "align",
+              "type": {
+                "text": "'left' | 'center' | 'right' | 'space-between' | 'space-around'"
+              },
+              "attribute": "region-align"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "labelColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label-color"
+            },
+            {
+              "kind": "field",
+              "name": "prefixColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix-color"
+            },
+            {
+              "kind": "field",
+              "name": "foregroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "foreground-color"
+            },
+            {
+              "kind": "field",
+              "name": "suffixColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix-color"
+            },
+            {
+              "kind": "field",
+              "name": "fontSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "font-size"
+            },
+            {
+              "kind": "field",
+              "name": "labelSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label-size"
+            },
+            {
+              "kind": "field",
+              "name": "prefixSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix-size"
+            },
+            {
+              "kind": "field",
+              "name": "valueSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value-size"
+            },
+            {
+              "kind": "field",
+              "name": "suffixSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix-size"
+            },
+            {
+              "kind": "field",
+              "name": "labelWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label-weight"
+            },
+            {
+              "kind": "field",
+              "name": "valueWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value-weight"
+            },
+            {
+              "kind": "field",
+              "name": "prefixWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix-weight"
+            },
+            {
+              "kind": "field",
+              "name": "suffixWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix-weight"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "iconColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon-color"
+            },
+            {
+              "kind": "field",
+              "name": "iconSide",
+              "type": {
+                "text": "'left' | 'right' | 'top' | 'bottom'"
+              },
+              "attribute": "icon-side"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-display-region.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxDisplayRegion",
+          "tagName": "fx-display-region",
+          "description": "SalsaFX <fx-display-region> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix",
+              "description": "prefix property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix",
+              "description": "suffix property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-template",
+              "description": "valueTemplate property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "content-layout",
+              "description": "contentLayout property.",
+              "type": {
+                "text": "'row' | 'labeled' | 'column'"
+              }
+            },
+            {
+              "name": "align",
+              "description": "align property.",
+              "type": {
+                "text": "'left' | 'center' | 'right' | 'space-between' | 'space-around'"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background-color",
+              "description": "backgroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-color",
+              "description": "labelColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix-color",
+              "description": "prefixColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "foreground-color",
+              "description": "foregroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix-color",
+              "description": "suffixColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "font-size",
+              "description": "fontSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-size",
+              "description": "labelSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix-size",
+              "description": "prefixSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-size",
+              "description": "valueSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix-size",
+              "description": "suffixSize property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-weight",
+              "description": "labelWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-weight",
+              "description": "valueWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "prefix-weight",
+              "description": "prefixWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "suffix-weight",
+              "description": "suffixWeight property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon-color",
+              "description": "iconColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon-side",
+              "description": "iconSide property.",
+              "type": {
+                "text": "'left' | 'right' | 'top' | 'bottom'"
+              }
+            },
+            {
+              "name": "typography",
+              "description": "typography property.",
+              "type": {
+                "text": "'classic' | 'segmented' | 'modern'"
+              }
+            },
+            {
+              "name": "is-selectable",
+              "description": "isSelectable property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "prefix",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "suffix",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix"
+            },
+            {
+              "kind": "field",
+              "name": "valueTemplate",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value-template"
+            },
+            {
+              "kind": "field",
+              "name": "contentLayout",
+              "type": {
+                "text": "'row' | 'labeled' | 'column'"
+              },
+              "attribute": "content-layout"
+            },
+            {
+              "kind": "field",
+              "name": "align",
+              "type": {
+                "text": "'left' | 'center' | 'right' | 'space-between' | 'space-around'"
+              },
+              "attribute": "align"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "size"
+            },
+            {
+              "kind": "field",
+              "name": "backgroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background-color"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "labelColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label-color"
+            },
+            {
+              "kind": "field",
+              "name": "prefixColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix-color"
+            },
+            {
+              "kind": "field",
+              "name": "foregroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "foreground-color"
+            },
+            {
+              "kind": "field",
+              "name": "suffixColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix-color"
+            },
+            {
+              "kind": "field",
+              "name": "fontSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "font-size"
+            },
+            {
+              "kind": "field",
+              "name": "labelSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label-size"
+            },
+            {
+              "kind": "field",
+              "name": "prefixSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix-size"
+            },
+            {
+              "kind": "field",
+              "name": "valueSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value-size"
+            },
+            {
+              "kind": "field",
+              "name": "suffixSize",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix-size"
+            },
+            {
+              "kind": "field",
+              "name": "labelWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label-weight"
+            },
+            {
+              "kind": "field",
+              "name": "valueWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value-weight"
+            },
+            {
+              "kind": "field",
+              "name": "prefixWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "prefix-weight"
+            },
+            {
+              "kind": "field",
+              "name": "suffixWeight",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "suffix-weight"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "iconColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon-color"
+            },
+            {
+              "kind": "field",
+              "name": "iconSide",
+              "type": {
+                "text": "'left' | 'right' | 'top' | 'bottom'"
+              },
+              "attribute": "icon-side"
+            },
+            {
+              "kind": "field",
+              "name": "typography",
+              "type": {
+                "text": "'classic' | 'segmented' | 'modern'"
+              },
+              "attribute": "typography"
+            },
+            {
+              "kind": "field",
+              "name": "isSelectable",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-selectable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-fader.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxFader",
+          "tagName": "fx-fader",
+          "description": "SalsaFX <fx-fader> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-well",
+              "description": "hasWell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-shell",
+              "description": "hasShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              }
+            },
+            {
+              "name": "ticks-side",
+              "description": "ticksSide property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-origin",
+              "description": "valueOrigin property.",
+              "type": {
+                "text": "'start' | 'end'"
+              }
+            },
+            {
+              "name": "sub-divisions",
+              "description": "subDivisions property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "spacing",
+              "description": "spacing property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "ticks",
+              "description": "ticks property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "decimals",
+              "description": "decimals property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "length",
+              "description": "length property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "caption",
+              "description": "caption property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-region-tooltip",
+              "description": "hasRegionTooltip property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "snap-to-ticks",
+              "description": "snapToTicks property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "fit-ticks",
+              "description": "fitTicks property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "input",
+              "type": {
+                "text": "CustomEvent<{ value: number; displayValue: number }>"
+              }
+            },
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ value: number; displayValue: number }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "hasWell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-well"
+            },
+            {
+              "kind": "field",
+              "name": "hasShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shell"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "ticksSide",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "ticks-side"
+            },
+            {
+              "kind": "field",
+              "name": "valueOrigin",
+              "type": {
+                "text": "'start' | 'end'"
+              },
+              "attribute": "value-origin"
+            },
+            {
+              "kind": "field",
+              "name": "subDivisions",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "sub-divisions"
+            },
+            {
+              "kind": "field",
+              "name": "spacing",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "spacing"
+            },
+            {
+              "kind": "field",
+              "name": "ticks",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "ticks"
+            },
+            {
+              "kind": "field",
+              "name": "decimals",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "decimals"
+            },
+            {
+              "kind": "field",
+              "name": "length",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "length"
+            },
+            {
+              "kind": "field",
+              "name": "caption",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "caption"
+            },
+            {
+              "kind": "field",
+              "name": "hasRegionTooltip",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-region-tooltip"
+            },
+            {
+              "kind": "field",
+              "name": "snapToTicks",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "snap-to-ticks"
+            },
+            {
+              "kind": "field",
+              "name": "fitTicks",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "fit-ticks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-gauge-needle.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxGaugeNeedle",
+          "tagName": "fx-gauge-needle",
+          "description": "SalsaFX <fx-gauge-needle> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "start-angle",
+              "description": "startAngle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "arc-length",
+              "description": "arcLength property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-shadow",
+              "description": "hasShadow property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "thickness",
+              "description": "thickness property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "startAngle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-angle"
+            },
+            {
+              "kind": "field",
+              "name": "arcLength",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "arc-length"
+            },
+            {
+              "kind": "field",
+              "name": "hasShadow",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shadow"
+            },
+            {
+              "kind": "field",
+              "name": "thickness",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "thickness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-gauge-needle-triangle.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxGaugeNeedleTriangle",
+          "tagName": "fx-gauge-needle-triangle",
+          "description": "SalsaFX <fx-gauge-needle-triangle> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "start-angle",
+              "description": "startAngle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "arc-length",
+              "description": "arcLength property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-shadow",
+              "description": "hasShadow property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "thickness",
+              "description": "thickness property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "startAngle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-angle"
+            },
+            {
+              "kind": "field",
+              "name": "arcLength",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "arc-length"
+            },
+            {
+              "kind": "field",
+              "name": "hasShadow",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shadow"
+            },
+            {
+              "kind": "field",
+              "name": "thickness",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "thickness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-gauge-region.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxGaugeRegion",
+          "tagName": "fx-gauge-region",
+          "description": "SalsaFX <fx-gauge-region> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "from",
+              "description": "from property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "to",
+              "description": "to property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "regionupdate",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "from",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "from"
+            },
+            {
+              "kind": "field",
+              "name": "to",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "to"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-group-box.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxGroupBox",
+          "tagName": "fx-group-box",
+          "description": "SalsaFX <fx-group-box> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "align-x",
+              "description": "alignX property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "align-y",
+              "description": "alignY property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "title",
+              "description": "title property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "title-color",
+              "description": "titleColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background",
+              "description": "background property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "border",
+              "description": "border property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "border-radius",
+              "description": "borderRadius property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "gap",
+              "description": "gap property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "flex-direction",
+              "description": "flexDirection property.",
+              "type": {
+                "text": "'row' | 'column'"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "alignX",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-x"
+            },
+            {
+              "kind": "field",
+              "name": "alignY",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-y"
+            },
+            {
+              "kind": "field",
+              "name": "title",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "title"
+            },
+            {
+              "kind": "field",
+              "name": "titleColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "title-color"
+            },
+            {
+              "kind": "field",
+              "name": "background",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background"
+            },
+            {
+              "kind": "field",
+              "name": "border",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "border"
+            },
+            {
+              "kind": "field",
+              "name": "borderRadius",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "border-radius"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "padding"
+            },
+            {
+              "kind": "field",
+              "name": "gap",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "gap"
+            },
+            {
+              "kind": "field",
+              "name": "flexDirection",
+              "type": {
+                "text": "'row' | 'column'"
+              },
+              "attribute": "flex-direction"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-icon.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxIcon",
+          "tagName": "fx-icon",
+          "description": "SalsaFX <fx-icon> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "size"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-knob.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxKnob",
+          "tagName": "fx-knob",
+          "description": "SalsaFX <fx-knob> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "angle",
+              "description": "angle property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "angle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "angle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-led-indicator.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxLedIndicator",
+          "tagName": "fx-led-indicator",
+          "description": "SalsaFX <fx-led-indicator> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-position",
+              "description": "labelPosition property.",
+              "type": {
+                "text": "'top' | 'bottom' | 'none'"
+              }
+            },
+            {
+              "name": "shape",
+              "description": "shape property.",
+              "type": {
+                "text": "'round' | 'rect' | 'square'"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "'small' | 'medium' | 'large' | 'x-large'"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "variant property.",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              }
+            },
+            {
+              "name": "name",
+              "description": "name property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "is-active",
+              "description": "isActive property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-blinking",
+              "description": "isBlinking property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-interactive",
+              "description": "isInteractive property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ isActive: string; name: string }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "labelPosition",
+              "type": {
+                "text": "'top' | 'bottom' | 'none'"
+              },
+              "attribute": "label-position"
+            },
+            {
+              "kind": "field",
+              "name": "shape",
+              "type": {
+                "text": "'round' | 'rect' | 'square'"
+              },
+              "attribute": "shape"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "'small' | 'medium' | 'large' | 'x-large'"
+              },
+              "attribute": "size"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "variant",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              },
+              "attribute": "variant"
+            },
+            {
+              "kind": "field",
+              "name": "name",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "name"
+            },
+            {
+              "kind": "field",
+              "name": "isActive",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-active"
+            },
+            {
+              "kind": "field",
+              "name": "isBlinking",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-blinking"
+            },
+            {
+              "kind": "field",
+              "name": "isInteractive",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-interactive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-linear-bar.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxLinearBar",
+          "tagName": "fx-linear-bar",
+          "description": "SalsaFX <fx-linear-bar> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-well",
+              "description": "hasWell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-shell",
+              "description": "hasShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              }
+            },
+            {
+              "name": "ticks-side",
+              "description": "ticksSide property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-origin",
+              "description": "valueOrigin property.",
+              "type": {
+                "text": "'start' | 'end'"
+              }
+            },
+            {
+              "name": "sub-divisions",
+              "description": "subDivisions property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "spacing",
+              "description": "spacing property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "ticks",
+              "description": "ticks property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "decimals",
+              "description": "decimals property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "length",
+              "description": "length property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "caption",
+              "description": "caption property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-region-tooltip",
+              "description": "hasRegionTooltip property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-segmented",
+              "description": "isSegmented property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-rounded",
+              "description": "isRounded property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "track-thickness",
+              "description": "trackThickness property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "hasWell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-well"
+            },
+            {
+              "kind": "field",
+              "name": "hasShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shell"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "ticksSide",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "ticks-side"
+            },
+            {
+              "kind": "field",
+              "name": "valueOrigin",
+              "type": {
+                "text": "'start' | 'end'"
+              },
+              "attribute": "value-origin"
+            },
+            {
+              "kind": "field",
+              "name": "subDivisions",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "sub-divisions"
+            },
+            {
+              "kind": "field",
+              "name": "spacing",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "spacing"
+            },
+            {
+              "kind": "field",
+              "name": "ticks",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "ticks"
+            },
+            {
+              "kind": "field",
+              "name": "decimals",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "decimals"
+            },
+            {
+              "kind": "field",
+              "name": "length",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "length"
+            },
+            {
+              "kind": "field",
+              "name": "caption",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "caption"
+            },
+            {
+              "kind": "field",
+              "name": "hasRegionTooltip",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-region-tooltip"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "isSegmented",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-segmented"
+            },
+            {
+              "kind": "field",
+              "name": "isRounded",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-rounded"
+            },
+            {
+              "kind": "field",
+              "name": "trackThickness",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "track-thickness"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-linear-gauge.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxLinearGauge",
+          "tagName": "fx-linear-gauge",
+          "description": "SalsaFX <fx-linear-gauge> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "ticks-side",
+              "description": "ticksSide property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "count",
+              "description": "count property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "sub-divisions",
+              "description": "subDivisions property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "track-thickness",
+              "description": "trackThickness property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "value-origin",
+              "description": "valueOrigin property.",
+              "type": {
+                "text": "'start' | 'end'"
+              }
+            },
+            {
+              "name": "caption",
+              "description": "caption property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            },
+            {
+              "name": "spacing",
+              "description": "spacing property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-scale-connecting-line",
+              "description": "hasScaleConnectingLine property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-rounded-track",
+              "description": "isRoundedTrack property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-rounded-shell",
+              "description": "isRoundedShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-shell",
+              "description": "hasShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-region-tooltip",
+              "description": "hasRegionTooltip property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "ticksSide",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "ticks-side"
+            },
+            {
+              "kind": "field",
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "count"
+            },
+            {
+              "kind": "field",
+              "name": "subDivisions",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "sub-divisions"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "trackThickness",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "track-thickness"
+            },
+            {
+              "kind": "field",
+              "name": "valueOrigin",
+              "type": {
+                "text": "'start' | 'end'"
+              },
+              "attribute": "value-origin"
+            },
+            {
+              "kind": "field",
+              "name": "caption",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "caption"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            },
+            {
+              "kind": "field",
+              "name": "spacing",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "spacing"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleConnectingLine",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-connecting-line"
+            },
+            {
+              "kind": "field",
+              "name": "isRoundedTrack",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-rounded-track"
+            },
+            {
+              "kind": "field",
+              "name": "isRoundedShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-rounded-shell"
+            },
+            {
+              "kind": "field",
+              "name": "hasShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shell"
+            },
+            {
+              "kind": "field",
+              "name": "hasRegionTooltip",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-region-tooltip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-linear-scale.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxLinearScale",
+          "tagName": "fx-linear-scale",
+          "description": "SalsaFX <fx-linear-scale> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "count",
+              "description": "count property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "replacements",
+              "description": "replacements property.",
+              "type": {
+                "text": "Record<string, unknown>"
+              }
+            },
+            {
+              "name": "value-origin",
+              "description": "valueOrigin property.",
+              "type": {
+                "text": "'start' | 'end'"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "sub-divisions",
+              "description": "subDivisions property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "side",
+              "description": "side property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "start-offset",
+              "description": "startOffset property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "end-offset",
+              "description": "endOffset property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "view-box-width",
+              "description": "viewBoxWidth property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "view-box-height",
+              "description": "viewBoxHeight property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "preserve-aspect-ratio",
+              "description": "preserveAspectRatio property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-scale-connecting-line",
+              "description": "hasScaleConnectingLine property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "track-thickness",
+              "description": "trackThickness property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "caption",
+              "description": "caption property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "spacing",
+              "description": "spacing property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "caption-offset",
+              "description": "captionOffset property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "track-center",
+              "description": "trackCenter property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "count"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "replacements",
+              "type": {
+                "text": "Record<string, unknown>"
+              },
+              "attribute": "replacements"
+            },
+            {
+              "kind": "field",
+              "name": "valueOrigin",
+              "type": {
+                "text": "'start' | 'end'"
+              },
+              "attribute": "value-origin"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "subDivisions",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "sub-divisions"
+            },
+            {
+              "kind": "field",
+              "name": "side",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "side"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "startOffset",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-offset"
+            },
+            {
+              "kind": "field",
+              "name": "endOffset",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "end-offset"
+            },
+            {
+              "kind": "field",
+              "name": "viewBoxWidth",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "view-box-width"
+            },
+            {
+              "kind": "field",
+              "name": "viewBoxHeight",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "view-box-height"
+            },
+            {
+              "kind": "field",
+              "name": "preserveAspectRatio",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "preserve-aspect-ratio"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleConnectingLine",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-connecting-line"
+            },
+            {
+              "kind": "field",
+              "name": "trackThickness",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "track-thickness"
+            },
+            {
+              "kind": "field",
+              "name": "caption",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "caption"
+            },
+            {
+              "kind": "field",
+              "name": "spacing",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "spacing"
+            },
+            {
+              "kind": "field",
+              "name": "captionOffset",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "caption-offset"
+            },
+            {
+              "kind": "field",
+              "name": "trackCenter",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "track-center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-metalic-knob.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxMetalicKnob",
+          "tagName": "fx-metalic-knob",
+          "description": "SalsaFX <fx-metalic-knob> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "angle",
+              "description": "angle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "progress",
+              "description": "progress property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "is-dragging",
+              "description": "isDragging property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "angle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "angle"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "progress",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "progress"
+            },
+            {
+              "kind": "field",
+              "name": "isDragging",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-dragging"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-potentiometer.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxPotentiometer",
+          "tagName": "fx-potentiometer",
+          "description": "SalsaFX <fx-potentiometer> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "start-angle",
+              "description": "startAngle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "arc-length",
+              "description": "arcLength property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "ticks",
+              "description": "ticks property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "snap-to-ticks",
+              "description": "snapToTicks property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "input",
+              "type": {
+                "text": "CustomEvent<{ value: number }>"
+              }
+            },
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ value: number }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "startAngle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-angle"
+            },
+            {
+              "kind": "field",
+              "name": "arcLength",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "arc-length"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "ticks",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "ticks"
+            },
+            {
+              "kind": "field",
+              "name": "snapToTicks",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "snap-to-ticks"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-push-button.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxPushButton",
+          "tagName": "fx-push-button",
+          "description": "SalsaFX <fx-push-button> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label-position",
+              "description": "labelPosition property.",
+              "type": {
+                "text": "'inside' | 'plate' | 'none'"
+              }
+            },
+            {
+              "name": "type",
+              "description": "type property.",
+              "type": {
+                "text": "'momentary' | 'latching'"
+              }
+            },
+            {
+              "name": "is-active",
+              "description": "isActive property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "background-color",
+              "description": "backgroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "foreground-color",
+              "description": "foregroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "variant property.",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon-rendering-mode",
+              "description": "iconRenderingMode property.",
+              "type": {
+                "text": "'shaded' | 'foregroundColor'"
+              }
+            },
+            {
+              "name": "text-rendering-mode",
+              "description": "textRenderingMode property.",
+              "type": {
+                "text": "'shaded' | 'foregroundColor'"
+              }
+            },
+            {
+              "name": "shape",
+              "description": "shape property.",
+              "type": {
+                "text": "'round' | 'pill' | 'rect' | 'roundedRect'"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "release",
+              "type": {
+                "text": "CustomEvent<{ active: string; isActive: string }>"
+              }
+            },
+            {
+              "name": "press",
+              "type": {
+                "text": "CustomEvent<{ active: string; isActive: string }>"
+              }
+            },
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ active: string; isActive: string }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "labelPosition",
+              "type": {
+                "text": "'inside' | 'plate' | 'none'"
+              },
+              "attribute": "label-position"
+            },
+            {
+              "kind": "field",
+              "name": "type",
+              "type": {
+                "text": "'momentary' | 'latching'"
+              },
+              "attribute": "type"
+            },
+            {
+              "kind": "field",
+              "name": "isActive",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-active"
+            },
+            {
+              "kind": "field",
+              "name": "backgroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background-color"
+            },
+            {
+              "kind": "field",
+              "name": "foregroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "foreground-color"
+            },
+            {
+              "kind": "field",
+              "name": "variant",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              },
+              "attribute": "variant"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "iconRenderingMode",
+              "type": {
+                "text": "'shaded' | 'foregroundColor'"
+              },
+              "attribute": "icon-rendering-mode"
+            },
+            {
+              "kind": "field",
+              "name": "textRenderingMode",
+              "type": {
+                "text": "'shaded' | 'foregroundColor'"
+              },
+              "attribute": "text-rendering-mode"
+            },
+            {
+              "kind": "field",
+              "name": "shape",
+              "type": {
+                "text": "'round' | 'pill' | 'rect' | 'roundedRect'"
+              },
+              "attribute": "shape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-radial-gauge.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxRadialGauge",
+          "tagName": "fx-radial-gauge",
+          "description": "SalsaFX <fx-radial-gauge> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-shell",
+              "description": "hasShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "start-angle",
+              "description": "startAngle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "arc-length",
+              "description": "arcLength property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-track",
+              "description": "hasTrack property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "has-region-tooltip",
+              "description": "hasRegionTooltip property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "hasShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shell"
+            },
+            {
+              "kind": "field",
+              "name": "startAngle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-angle"
+            },
+            {
+              "kind": "field",
+              "name": "arcLength",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "arc-length"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "hasTrack",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-track"
+            },
+            {
+              "kind": "field",
+              "name": "hasRegionTooltip",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-region-tooltip"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-radial-scale.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxRadialScale",
+          "tagName": "fx-radial-scale",
+          "description": "SalsaFX <fx-radial-scale> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "count",
+              "description": "count property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "replacements",
+              "description": "replacements property.",
+              "type": {
+                "text": "Record<string, unknown>"
+              }
+            },
+            {
+              "name": "value-origin",
+              "description": "valueOrigin property.",
+              "type": {
+                "text": "'start' | 'end'"
+              }
+            },
+            {
+              "name": "start-angle",
+              "description": "startAngle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "arc-length",
+              "description": "arcLength property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "sub-divisions",
+              "description": "subDivisions property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "outer-radius",
+              "description": "outerRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "major-inner-radius",
+              "description": "majorInnerRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "minor-inner-radius",
+              "description": "minorInnerRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "text-radius",
+              "description": "textRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label-font-size",
+              "description": "labelFontSize property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "count"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "replacements",
+              "type": {
+                "text": "Record<string, unknown>"
+              },
+              "attribute": "replacements"
+            },
+            {
+              "kind": "field",
+              "name": "valueOrigin",
+              "type": {
+                "text": "'start' | 'end'"
+              },
+              "attribute": "value-origin"
+            },
+            {
+              "kind": "field",
+              "name": "startAngle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-angle"
+            },
+            {
+              "kind": "field",
+              "name": "arcLength",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "arc-length"
+            },
+            {
+              "kind": "field",
+              "name": "subDivisions",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "sub-divisions"
+            },
+            {
+              "kind": "field",
+              "name": "outerRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "outer-radius"
+            },
+            {
+              "kind": "field",
+              "name": "majorInnerRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "major-inner-radius"
+            },
+            {
+              "kind": "field",
+              "name": "minorInnerRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "minor-inner-radius"
+            },
+            {
+              "kind": "field",
+              "name": "textRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "text-radius"
+            },
+            {
+              "kind": "field",
+              "name": "labelFontSize",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "label-font-size"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-radial-simple-scale.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxRadialSimpleScale",
+          "tagName": "fx-radial-simple-scale",
+          "description": "SalsaFX <fx-radial-simple-scale> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "count",
+              "description": "count property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "replacements",
+              "description": "replacements property.",
+              "type": {
+                "text": "Record<string, unknown>"
+              }
+            },
+            {
+              "name": "value-origin",
+              "description": "valueOrigin property.",
+              "type": {
+                "text": "'start' | 'end'"
+              }
+            },
+            {
+              "name": "start-angle",
+              "description": "startAngle property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "arc-length",
+              "description": "arcLength property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "has-scale-labels",
+              "description": "hasScaleLabels property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "outer-radius",
+              "description": "outerRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "inner-radius",
+              "description": "innerRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "text-radius",
+              "description": "textRadius property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label-font-size",
+              "description": "labelFontSize property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "count"
+            },
+            {
+              "kind": "field",
+              "name": "replacements",
+              "type": {
+                "text": "Record<string, unknown>"
+              },
+              "attribute": "replacements"
+            },
+            {
+              "kind": "field",
+              "name": "valueOrigin",
+              "type": {
+                "text": "'start' | 'end'"
+              },
+              "attribute": "value-origin"
+            },
+            {
+              "kind": "field",
+              "name": "startAngle",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-angle"
+            },
+            {
+              "kind": "field",
+              "name": "arcLength",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "arc-length"
+            },
+            {
+              "kind": "field",
+              "name": "hasScaleLabels",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-scale-labels"
+            },
+            {
+              "kind": "field",
+              "name": "outerRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "outer-radius"
+            },
+            {
+              "kind": "field",
+              "name": "innerRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "inner-radius"
+            },
+            {
+              "kind": "field",
+              "name": "textRadius",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "text-radius"
+            },
+            {
+              "kind": "field",
+              "name": "labelFontSize",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "label-font-size"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-radial-switch.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxRadialSwitch",
+          "tagName": "fx-radial-switch",
+          "description": "SalsaFX <fx-radial-switch> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "states",
+              "description": "states property.",
+              "type": {
+                "text": "unknown[]"
+              }
+            },
+            {
+              "name": "active-id",
+              "description": "activeId property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "foreground-color",
+              "description": "foregroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background-color",
+              "description": "backgroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "track-width",
+              "description": "trackWidth property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ state: string }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "states",
+              "type": {
+                "text": "unknown[]"
+              },
+              "attribute": "states"
+            },
+            {
+              "kind": "field",
+              "name": "activeId",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "active-id"
+            },
+            {
+              "kind": "field",
+              "name": "foregroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "foreground-color"
+            },
+            {
+              "kind": "field",
+              "name": "backgroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background-color"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "size"
+            },
+            {
+              "kind": "field",
+              "name": "trackWidth",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "track-width"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-rotary-selector.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxRotarySelector",
+          "tagName": "fx-rotary-selector",
+          "description": "SalsaFX <fx-rotary-selector> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "sectors",
+              "description": "sectors property.",
+              "type": {
+                "text": "unknown[]"
+              }
+            },
+            {
+              "name": "selected-sector",
+              "description": "selectedSector property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "selected-range",
+              "description": "selectedRange property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ sectorId: string; range: string }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "sectors",
+              "type": {
+                "text": "unknown[]"
+              },
+              "attribute": "sectors"
+            },
+            {
+              "kind": "field",
+              "name": "selectedSector",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "selected-sector"
+            },
+            {
+              "kind": "field",
+              "name": "selectedRange",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "selected-range"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-rotary-selector-sector.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxRotarySelectorSector",
+          "tagName": "fx-rotary-selector-sector",
+          "description": "SalsaFX <fx-rotary-selector-sector> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "text-color",
+              "description": "textColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "ranges",
+              "description": "ranges property.",
+              "type": {
+                "text": "unknown[]"
+              }
+            },
+            {
+              "name": "start-deg",
+              "description": "startDeg property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "end-deg",
+              "description": "endDeg property.",
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "sectorupdate",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "textColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "text-color"
+            },
+            {
+              "kind": "field",
+              "name": "ranges",
+              "type": {
+                "text": "unknown[]"
+              },
+              "attribute": "ranges"
+            },
+            {
+              "kind": "field",
+              "name": "startDeg",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "start-deg"
+            },
+            {
+              "kind": "field",
+              "name": "endDeg",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "end-deg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-semaphore.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxSemaphore",
+          "tagName": "fx-semaphore",
+          "description": "SalsaFX <fx-semaphore> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-shell",
+              "description": "hasShell property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "size",
+              "description": "size property.",
+              "type": {
+                "text": "'small' | 'medium' | 'large' | 'x-large'"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "hasShell",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-shell"
+            },
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "'small' | 'medium' | 'large' | 'x-large'"
+              },
+              "attribute": "size"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              },
+              "attribute": "orientation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-semaphore-state.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxSemaphoreState",
+          "tagName": "fx-semaphore-state",
+          "description": "SalsaFX <fx-semaphore-state> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "color",
+              "description": "color property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "variant property.",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "is-blinking",
+              "description": "isBlinking property.",
+              "type": {
+                "text": "boolean"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "stateupdate",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "color",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "color"
+            },
+            {
+              "kind": "field",
+              "name": "variant",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              },
+              "attribute": "variant"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "isBlinking",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-blinking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-separator.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxSeparator",
+          "tagName": "fx-separator",
+          "description": "SalsaFX <fx-separator> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              }
+            },
+            {
+              "name": "thickness",
+              "description": "thickness property.",
+              "type": {
+                "text": "'thin' | 'thick'"
+              }
+            },
+            {
+              "name": "mode",
+              "description": "mode property.",
+              "type": {
+                "text": "'normal' | 'smooth'"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "'none' | 'small' | 'medium' | 'large' | 'x-large'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "thickness",
+              "type": {
+                "text": "'thin' | 'thick'"
+              },
+              "attribute": "thickness"
+            },
+            {
+              "kind": "field",
+              "name": "mode",
+              "type": {
+                "text": "'normal' | 'smooth'"
+              },
+              "attribute": "mode"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "'none' | 'small' | 'medium' | 'large' | 'x-large'"
+              },
+              "attribute": "padding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-stack-panel.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxStackPanel",
+          "tagName": "fx-stack-panel",
+          "description": "SalsaFX <fx-stack-panel> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "align-x",
+              "description": "alignX property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "align-y",
+              "description": "alignY property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              }
+            },
+            {
+              "name": "spacing",
+              "description": "spacing property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "width",
+              "description": "width property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "height",
+              "description": "height property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "alignX",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-x"
+            },
+            {
+              "kind": "field",
+              "name": "alignY",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-y"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "padding"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "'horizontal' | 'vertical'"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "spacing",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "spacing"
+            },
+            {
+              "kind": "field",
+              "name": "width",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "width"
+            },
+            {
+              "kind": "field",
+              "name": "height",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "height"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-switch.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxSwitch",
+          "tagName": "fx-switch",
+          "description": "SalsaFX <fx-switch> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "states",
+              "description": "states property.",
+              "type": {
+                "text": "unknown[]"
+              }
+            },
+            {
+              "name": "active-id",
+              "description": "activeId property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "orientation",
+              "description": "orientation property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            },
+            {
+              "name": "foreground-color",
+              "description": "foregroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background-color",
+              "description": "backgroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "state-width",
+              "description": "stateWidth property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<{ state: string }>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "states",
+              "type": {
+                "text": "unknown[]"
+              },
+              "attribute": "states"
+            },
+            {
+              "kind": "field",
+              "name": "activeId",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "active-id"
+            },
+            {
+              "kind": "field",
+              "name": "orientation",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "orientation"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            },
+            {
+              "kind": "field",
+              "name": "foregroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "foreground-color"
+            },
+            {
+              "kind": "field",
+              "name": "backgroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background-color"
+            },
+            {
+              "kind": "field",
+              "name": "stateWidth",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "state-width"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-switch-state.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxSwitchState",
+          "tagName": "fx-switch-state",
+          "description": "SalsaFX <fx-switch-state> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "foreground-color",
+              "description": "foregroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "background-color",
+              "description": "backgroundColor property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "stateupdate",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "foregroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "foreground-color"
+            },
+            {
+              "kind": "field",
+              "name": "backgroundColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "background-color"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-tab.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxTab",
+          "tagName": "fx-tab",
+          "description": "SalsaFX <fx-tab> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "header",
+              "description": "header property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "selection-color",
+              "description": "selectionColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "variant",
+              "description": "variant property.",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              }
+            },
+            {
+              "name": "badge",
+              "description": "badge property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "icon",
+              "description": "icon property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "selected",
+              "description": "selected property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "align-x",
+              "description": "alignX property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "align-y",
+              "description": "alignY property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "tabupdate",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "padding"
+            },
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "header"
+            },
+            {
+              "kind": "field",
+              "name": "selectionColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "selection-color"
+            },
+            {
+              "kind": "field",
+              "name": "variant",
+              "type": {
+                "text": "'primary' | 'secondary' | 'success' | 'danger' | 'warning' | 'info' | 'light' | 'dark'"
+              },
+              "attribute": "variant"
+            },
+            {
+              "kind": "field",
+              "name": "badge",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "badge"
+            },
+            {
+              "kind": "field",
+              "name": "icon",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "icon"
+            },
+            {
+              "kind": "field",
+              "name": "selected",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "selected"
+            },
+            {
+              "kind": "field",
+              "name": "alignX",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-x"
+            },
+            {
+              "kind": "field",
+              "name": "alignY",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-tabs.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxTabs",
+          "tagName": "fx-tabs",
+          "description": "SalsaFX <fx-tabs> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "align-x",
+              "description": "alignX property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "align-y",
+              "description": "alignY property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "description": "padding property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "is-animated",
+              "description": "isAnimated property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "selected-index",
+              "description": "selectedIndex property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "selection-color",
+              "description": "selectionColor property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "theme",
+              "description": "theme property.",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              }
+            }
+          ],
+          "events": [
+            {
+              "name": "change",
+              "type": {
+                "text": "CustomEvent<Record<string, unknown>>"
+              }
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "alignX",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-x"
+            },
+            {
+              "kind": "field",
+              "name": "alignY",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "align-y"
+            },
+            {
+              "kind": "field",
+              "name": "padding",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "padding"
+            },
+            {
+              "kind": "field",
+              "name": "isAnimated",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "is-animated"
+            },
+            {
+              "kind": "field",
+              "name": "selectedIndex",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "selected-index"
+            },
+            {
+              "kind": "field",
+              "name": "selectionColor",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "selection-color"
+            },
+            {
+              "kind": "field",
+              "name": "theme",
+              "type": {
+                "text": "'silver' | 'darkgreen' | 'iron' | 'dark' | 'darkblue' | 'darkergreen' | 'snow'"
+              },
+              "attribute": "theme"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-toaster.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "FxToaster",
+          "tagName": "fx-toaster",
+          "description": "SalsaFX <fx-toaster> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "placement",
+              "description": "placement property.",
+              "type": {
+                "text": "'top-start' | 'top-center' | 'top-end' | 'bottom-start' | 'bottom-center' | 'bottom-end'"
+              }
+            },
+            {
+              "name": "duration",
+              "description": "duration property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "margin",
+              "description": "margin property.",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "placement",
+              "type": {
+                "text": "'top-start' | 'top-center' | 'top-end' | 'bottom-start' | 'bottom-center' | 'bottom-end'"
+              },
+              "attribute": "placement"
+            },
+            {
+              "kind": "field",
+              "name": "duration",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "duration"
+            },
+            {
+              "kind": "field",
+              "name": "margin",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "margin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dist/fx-value-display.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ValueDisplay",
+          "tagName": "fx-value-display",
+          "description": "SalsaFX <fx-value-display> component.",
+          "customElement": true,
+          "attributes": [
+            {
+              "name": "disabled",
+              "description": "disabled property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "value",
+              "description": "value property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "min",
+              "description": "min property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "max",
+              "description": "max property.",
+              "type": {
+                "text": "number"
+              }
+            },
+            {
+              "name": "label",
+              "description": "label property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "unit",
+              "description": "unit property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "has-value-display",
+              "description": "hasValueDisplay property.",
+              "type": {
+                "text": "boolean"
+              }
+            },
+            {
+              "name": "offset-x",
+              "description": "offsetX property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "offset-y",
+              "description": "offsetY property.",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "align",
+              "description": "align property.",
+              "type": {
+                "text": "'left' | 'center' | 'right'"
+              }
+            }
+          ],
+          "events": [],
+          "members": [
+            {
+              "kind": "field",
+              "name": "disabled",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "disabled"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "value"
+            },
+            {
+              "kind": "field",
+              "name": "min",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "min"
+            },
+            {
+              "kind": "field",
+              "name": "max",
+              "type": {
+                "text": "number"
+              },
+              "attribute": "max"
+            },
+            {
+              "kind": "field",
+              "name": "label",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "label"
+            },
+            {
+              "kind": "field",
+              "name": "unit",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "unit"
+            },
+            {
+              "kind": "field",
+              "name": "hasValueDisplay",
+              "type": {
+                "text": "boolean"
+              },
+              "attribute": "has-value-display"
+            },
+            {
+              "kind": "field",
+              "name": "offsetX",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "offset-x"
+            },
+            {
+              "kind": "field",
+              "name": "offsetY",
+              "type": {
+                "text": "string"
+              },
+              "attribute": "offset-y"
+            },
+            {
+              "kind": "field",
+              "name": "align",
+              "type": {
+                "text": "'left' | 'center' | 'right'"
+              },
+              "attribute": "align"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

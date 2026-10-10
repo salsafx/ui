@@ -1,0 +1,52 @@
+import type { PropertyValues } from "lit";
+import { FxElement } from "../base/FxElement";
+import "./FxRotarySelectorSector";
+export type RotarySector = {
+    id: string;
+    label: string;
+    color: string;
+    textColor: string;
+    ranges: string[];
+    startDeg: number;
+    endDeg: number;
+};
+export type RotaryChangeEvent = {
+    sectorId: string;
+    range: string;
+};
+export declare class FxRotarySelector extends FxElement {
+    static styles: import("lit").CSSResult;
+    sectors: RotarySector[];
+    selectedSector: string;
+    selectedRange: string;
+    private slottedSectors;
+    private needleAngle;
+    private raf;
+    private animAngle;
+    private isDragging;
+    private modeLabels;
+    private get effectiveSectors();
+    connectedCallback(): void;
+    firstUpdated(changed: PropertyValues): void;
+    updated(changed: PropertyValues): void;
+    disconnectedCallback(): void;
+    private onSectorUpdate;
+    private collectSlottedSectors;
+    select(sectorId: string, range?: string): void;
+    private currentSector;
+    private syncNeedle;
+    private animateTo;
+    private emitChange;
+    private angleFromPointer;
+    private onPointerDown;
+    private onPointerMove;
+    private onPointerUp;
+    private handleAngle;
+    private selectRange;
+    private renderKnurling;
+    private renderSectors;
+    private renderTicks;
+    private renderLabels;
+    private renderNeedle;
+    render(): import("lit").TemplateResult<1>;
+}
