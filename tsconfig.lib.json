@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "allowImportingTsExtensions": false
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/react-jsx.d.ts",
+    "src/react-jsx.pro.d.ts",
+    "src/solid-jsx.d.ts",
+    "src/solid-jsx.pro.d.ts",
+    "src/react-elements.d.ts",
+    "src/react-elements.pro.d.ts",
+    "src/solid-elements.d.ts",
+    "src/solid-elements.pro.d.ts"
+  ]
+}
